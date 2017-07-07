@@ -1,0 +1,8 @@
+---
+title:  "REMIX "
+date:   2017-07-07
+categories: [jekyll]
+tags: [jekyll]
+---
+
+This is another attempt at a blog. BLAHHHGGG.
