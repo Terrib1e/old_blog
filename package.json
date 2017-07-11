@@ -1,0 +1,32 @@
+{
+  "name": "browser-sync-jekyll",
+  "version": "0.0.0",
+  "description": "My starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elijah Clark",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "2.3.1",
+    "gulp-jade": "^1.0.1",
+    "gulp-sass": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "terrib1e.github.io"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "terrib1e.github.io"
+  },
+  "homepage": "terrib1e.github.io"
+}
