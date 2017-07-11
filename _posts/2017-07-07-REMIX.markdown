@@ -7,5 +7,3 @@ tags: [jekyll]
 
 This is another attempt at a blog. BLAHHHGGG.
 Check this out though...
-
-{% include gravity.html %}
