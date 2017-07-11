@@ -1,0 +1,6 @@
+---
+title:  "uploads"
+date:   2017-07-10
+categories: [blog-life]
+tags: [life]
+---

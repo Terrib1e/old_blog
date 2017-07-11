@@ -1,5 +1,5 @@
 ---
-title:  "REMIX "
+title:  "REMIX"
 date:   2017-07-07
 categories: [jekyll]
 tags: [jekyll]
@@ -8,5 +8,4 @@ tags: [jekyll]
 This is another attempt at a blog. BLAHHHGGG.
 Check this out though...
 
-<iframe height='265' scrolling='no' title='Gravity Points' src='//codepen.io/terrib1e/embed/OgorMv/?height=265&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/terrib1e/pen/OgorMv/'>Gravity Points</a> by EC (<a href='https://codepen.io/terrib1e'>@terrib1e</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+{% include gravity.html %}
