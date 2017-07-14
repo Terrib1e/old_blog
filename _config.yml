@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -20,3 +21,10 @@ author:
 
 # Custom vars
 version:             1.0.0
+=======
+/*name: Elijah Clark
+markdown: redcarpet
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+theme: jekyll-theme-slate*/
+>>>>>>> dbf127f3a6da92dbd1991b96d1087f617bcb8b11
