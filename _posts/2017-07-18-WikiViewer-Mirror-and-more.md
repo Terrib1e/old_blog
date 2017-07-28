@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 4 - WikiViewer,Mirror, and more"
+title: "WikiViewer,Mirror, and more"
 date: 2017-07-18
 categories: blog-projects
 ---

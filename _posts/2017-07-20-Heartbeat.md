@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 6 - heart beat..."
+title: "heart beat..."
 date: 2017-07-20
 categories: blog-projects
 ---
