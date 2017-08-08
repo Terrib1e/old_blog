@@ -2,7 +2,6 @@
 layout: post
 title: "HomeSweetHome"
 date: 2017-08-01
-categories: blog-projects
 ---
 # **Home Sweet Home**
 

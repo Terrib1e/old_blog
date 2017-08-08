@@ -2,7 +2,6 @@
 layout: post
 title: "WikiViewer,Mirror, and more"
 date: 2017-07-18
-categories: blog-projects
 ---
 # WikiViewer
 

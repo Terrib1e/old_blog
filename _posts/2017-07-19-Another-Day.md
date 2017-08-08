@@ -2,7 +2,6 @@
 layout: post
 title: "Another Day"
 date: 2017-07-18
-categories: blog-projects
 ---
 
 # *Another Day*
