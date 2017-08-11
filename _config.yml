@@ -2,8 +2,8 @@
 highlighter:         rouge
 
 # Permalinks
-permalink:        pretty
-
+gems:
+[jekyll-paginate]
 # Setup
 title:            Nifty Times
 tagline:          'a blog about life'
@@ -18,7 +18,7 @@ paginate:         5
 paginate_path:    '/blog/page:num/'
 
 # Custom vars
-version:          2.0.0
+version:          3.0.0
 
 github:
   repo:           https://github.com/terrib1e/terrib1e.github.io
