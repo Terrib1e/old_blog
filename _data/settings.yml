@@ -14,8 +14,8 @@ menu:
 - {name: 'Misc thoughts', file: 'facts.html'}
 - {name: 'Project the projects', file: 'projects.html'}
 - {name: 'Blog aka ramblin', file: 'blog.html'}
-- {name: 'About', file: 'about.html'}
-- {name: 'Contact', file: 'contact.html'}
+- {name: 'About', file: 'about.md'}
+- {name: 'Contact', file: 'contact.md'}
 
 social:
 - {icon: 'twitter', link: 'https://twitter.com/ghostatlas'}
