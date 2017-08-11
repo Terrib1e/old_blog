@@ -1,24 +1,13 @@
-# Dependencies
+# Site Settings
+
+paginate:            5
+
+# Build settings
+markdown:            kramdown
 highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate]
 
-# Permalinks
-gems:
-[jekyll-paginate]
-# Setup
-title:            Nifty Times
-tagline:          'a blog about life'
-description:      'Nifty Me'
-url:              https://terrib1e.github.io
-
-author:
-  name:           'Elijah Clark'
-  url:            https://terrib1e.github.io
-
-paginate:         5
-paginate_path:    '/blog/page:num/'
-
-# Custom vars
-version:          3.0.0
-
-github:
-  repo:           https://github.com/terrib1e/terrib1e.github.io
+sass:
+  sass_dir: assets/css
+  style: :nested
