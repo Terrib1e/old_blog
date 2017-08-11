@@ -9,5 +9,5 @@ permalink:           none
 plugins:             [jekyll-paginate]
 
 sass:
-  sass_dir: assets/css
+  sass_dir: assets/css/
   style: :nested
