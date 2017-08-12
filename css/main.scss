@@ -8,8 +8,8 @@ $sidebar-color: {{site.sidebar-color}};
 $accent-color: {{site.accent-color}}; 
 
 @import
-        "simple-sidebar",
-        "layout",
-        "custom",
-        "syntax-highlighting"
+        "_sass/simple-sidebar",
+        "_sass/layout",
+        "_sass/custom",
+        "_sass/syntax-highlighting"
 ;
