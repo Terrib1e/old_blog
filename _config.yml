@@ -15,7 +15,7 @@ markdown: kramdown
 
 #color scheme
 sidebar-color: '#335ce5'       #those apostrophes are important
-accent-color: '#ffb422'     #those apostrophes are important
+accent-color: '#FF7605'     #those apostrophes are important
 
 
 #social
