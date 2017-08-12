@@ -14,9 +14,12 @@ markdown: kramdown
 
 
 #color scheme
-sidebar-color: '#335ce5'       #those apostrophes are important
-accent-color: '#FF7605'     #those apostrophes are important
+sidebar-color: '#094F8E'       #those apostrophes are important
+accent-color: '#FF6700'     #those apostrophes are important
 
+#094F8E-blue
+#7ECB00-green
+#FF6700-orange
 
 #social
 linkedin: https://linkedin.com/
