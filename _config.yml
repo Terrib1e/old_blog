@@ -7,7 +7,7 @@ author: EC
 
 author-image: /img/profilepic.png
 
-baseurl: "terrib1e.github.io"  # the subpath of your site, e.g. /blog
+baseurl:   # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
