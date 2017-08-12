@@ -1,79 +1,46 @@
 ---
 layout: default
 ---
-
+<style>
+table {
+  margin: 15px 0;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin: 0; }
+</style>
 <div class="page-content">
-  <h1>
-    {{ page.title }}
-  </h1>
+<article id="post-page" >
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+{{ content }}
 
-  <span class="post-date">
-    Written on
-    {% assign d = page.date | date: "%-d"  %}
-    {{ page.date | date: "%B" }}
-    {% case d %}
-      {% when '1' or '21' or '31' %}{{ d }}st
-      {% when '2' or '22' %}{{ d }}nd
-      {% when '3' or '23' %}{{ d }}rd
-      {% else %}{{ d }}th{% endcase %},
-    {{ page.date | date: "%Y" }}
-    by
-    {% if page.author %}
-      {{ page.author }}
-    {% else %}
-      {{ site.data.settings.author.name }}
-    {% endif %}
-  </span>
 
-  {% if page.image.feature %}
-    <div class="featured-image">
-      <img src="{{ site.github.url }}/assets/img/{{ page.image.feature }}">
-    </div>
-  {% endif %}
-
-  <article>
-    {{ content }}
-  </article>
-
-  <div class="post-share">
-    <div class="post-date">Feel free to share!</div>
-    <div class="sharing-icons">
-      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}&amp;via={{ site.data.settings.author.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-    </div>
-  </div>
-
-  <div class="related">
-    <h2>You may also enjoy...</h2>
-    {% assign listed_posts_urls = page.url | split: ' ' %}
-    <ul class="related-posts">
-      {% for tag in page.tags %}
-        {% for mypost in site.tags[tag] limit:2 %}
-          {% if listed_posts_urls contains mypost.url %}
-          {% else %}
-            <li>
-              <h3>
-                <a href="{{ site.github.url }}{{ mypost.url }}">
-                  <div class="related-thumbnail">
-                    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.image.feature }}">
-                  </div>
-                  <div class="related-title">
-                    {{ mypost.title }}
-                  </div>
-                  <!--<small>{{ mypost.date | date: "%B %-d, %Y" }}</small>-->
-                </a>
-              </h3>
-            </li>
-            {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    </ul>
-  </div>
-
-  {% if site.data.settings.disqus.comments %}
-    {% include disqus.html %}
-  {% endif %}
-
+</article>
+{% include share.html %}
+{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}
 </div>
+ <!-- Disqus -->
+
+

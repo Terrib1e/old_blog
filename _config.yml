@@ -1,13 +1,46 @@
-# Site Settings
 
-paginate:            5
+title: Nifty Me
+description: "Nifty Me"
+url: "http://webjeda.com"
+author: EC
+
+
+author-image: /img/profilepic.png
+
+baseurl: "terrib1e.github.io"  # the subpath of your site, e.g. /blog
 
 # Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           none
-plugins:             [jekyll-paginate]
+markdown: kramdown
+
+
+#color scheme
+sidebar-color: '#000'       #those apostrophes are important
+accent-color: '#F62459'     #those apostrophes are important
+
+
+#social
+linkedin: https://linkedin.com/
+github: https://github.com/Terrib1e
+email: mailto:niftyme@protonmail.com
+
+#Other
+#analytics: UA-71358787-1
+#disqus-shortname: webjeda-sample    #Disqus comments
+#google-custom-search-cx: '017575011755499056211:vwrwldvgq6s'        #Create Custom Search Engine(CSE) with google and find this ID in the code they provide.
+
+
+# Get this from https://getsimpleform.com to make your contact form work as expected.
+simpleform-api-token:
+
+
+destination: ./_site
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
 
 sass:
-  sass_dir: assets/css/
-  style: :nested
+    style: compressed
+    
+gems: [jekyll-paginate]
+
+
