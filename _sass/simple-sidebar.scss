@@ -9,7 +9,9 @@
 #wrapper.toggled {
     padding-left: 250px;
 }
-
+#nifty {
+  color:$accent-color;
+}
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
