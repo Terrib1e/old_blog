@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 desc: I would like to know what my users have to say about the website. Any query suggestion, tip would be great. Contacting WebJeda is easy. Just fill up the form and hit send.
-permalink: /contact/
+permalink: 
 ---
 
 This is a sample form. Update API TOKEN recieved from [SimpleForm](https://getsimpleform.com){: target="_blank" rel="nofollow"} in the _config.yml
