@@ -26,10 +26,10 @@ email: mailto:niftyme@protonmail.com
 
 #Other
 analytics: UA-101230746-1
-#disqus-shortname: webjeda-sample    #Disqus comments
+#disqus-shortname:   #Disqus comments
 #google-custom-search-cx: '017575011755499056211:vwrwldvgq6s'        #Create Custom Search Engine(CSE) with google and find this ID in the code they provide.
 
-
+simpleform-api-token: 5fd14849a6e9f329fc52b0d6885dfa7e
 
 destination: ./_site
 permalink: /:title/
