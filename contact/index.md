@@ -24,7 +24,7 @@ This is a sample form. Update API TOKEN recieved from [SimpleForm](https://getsi
             
         </ul>
         <input type="submit" value="Send" id="submit"/>
-        <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
+        <input type="hidden" name='redirect_to' value="http://terrib1e.github.io/thanks" />
         
 </form>
 
