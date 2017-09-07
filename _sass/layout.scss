@@ -39,6 +39,7 @@ nav,
 section,
 summary {
   display: block;
+  width:540px;
 }
 
 
@@ -136,6 +137,15 @@ body {
 a {
   color: $accent-color;
   text-decoration: none;
+    color: #fff;
+    text-shadow: 3px 3px 8px #000;
+    width: 540px;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: -1px;
 }
 a:hover,
 a:focus {
@@ -432,7 +442,7 @@ a#menu-toggle {
 }
 
 .page-content{
-    max-width: 80%;
+    max-width: 80%%;
     margin:0 auto;
 }
 
@@ -474,7 +484,7 @@ h2#post-index{
     width: 540px;
     margin-top: 0;
     margin-bottom: 0.2em;
-    font-size: 5px;
+    font-size: 48px;
     font-weight: normal;
     line-height: 1;
     letter-spacing: -1px
