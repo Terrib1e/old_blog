@@ -462,7 +462,7 @@ img {
     list-style: none;
     margin: auto;
     font-weight: normal;
-    font-size: 1.6em;
+    font-size: 1.3em;
     color: $accent-color;
     text-decoration: none;
     text-shadow: 3px 3px 8px #000;
@@ -548,7 +548,7 @@ a.share-button:hover {
 }
 
 .page-heading {
-    margin: 1em 1em 0.25em 1em;
+    margin: 0em 0em 0.25em 1em;
     font-weight: 700;
     font-size: 3em;
     color: $accent-color;
@@ -556,6 +556,8 @@ a.share-button:hover {
     text-shadow: 3px 3px 8px #000;
     line-height: 1;
     letter-spacing: -1px;
+    /* margin: unset; */
+    padding: 0em 0em 0.5em 0em;
 }
 
 #archive h2{
