@@ -460,6 +460,14 @@ img {
 
 .post-list {
     list-style: none;
+    margin: auto;
+    font-weight: normal;
+    font-size: 1.6em;
+    color: $accent-color;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #000;
+    line-height: 1;
+    letter-spacing: -1px;
 }
 
 a.post-link {
@@ -469,6 +477,7 @@ h2#post-index{
     margin: 10px;
     display: inline-block;
     border: none;
+    
 }
 
 .post-link:hover {
