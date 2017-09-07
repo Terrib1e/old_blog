@@ -543,6 +543,13 @@ a.share-button:hover {
     font-weight: 700;
     font-size: 3em;
     color: $accent-color;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 3px 3px 8px #000;
+    width: 540px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: -1px;
 }
 
 #archive h2{
