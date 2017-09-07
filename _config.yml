@@ -13,12 +13,9 @@ baseurl:   # the subpath of your site, e.g. /blog
 # Build settings
 markdown: kramdown
 
-
 #color scheme
-sidebar-color: '#002E3B'       #those apostrophes are important
-accent-color: '#A77B4E'     #those apostrophes are important
-
-
+sidebar-color: '#015870'     #those apostrophes are important
+accent-color: '#f8b36d'     #those apostrophes are important
 
 #social
 linkedin: https://linkedin.com/
