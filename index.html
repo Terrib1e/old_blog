@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: default
 ---
 
 <h1 class="page-heading">What's happening?</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts offset:1 limit:1 %}
       <li>
         
         <h2 id="post-index">
