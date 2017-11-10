@@ -529,8 +529,12 @@ a.share-button {
     text-decoration: none;
     padding: 5px 10px;
     color: #eee;
-    border-radius: 4px;
+    border-radius: 10px;
+    width: auto;
+    margin: 5px;
+    display: inline-block;
     opacity: 0.9
+    font-size: 21px;
 }
 .share-button {
     margin-bottom: 0.625em;
